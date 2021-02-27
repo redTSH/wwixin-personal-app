@@ -1,0 +1,61 @@
+<view class="header">
+  <image src="../../source/portrait-img.png" class="personal-img"></image>
+  <view class="header-info">
+    <text class="name">穆穆</text>
+    <text class="sign">还没有你的个性签名哦</text>
+  </view>
+  <image src="../../source/arrow-white.png" class="arrow-img"></image>
+</view>
+
+<view class="function">
+  <view class="fun-item">
+    <image 
+      src="../../source/phone-icon-phone-icon.png" 
+      class="item-icon"
+      mode="widthFix"
+    />
+    绑定手机
+  </view>
+  <navigator url="../realname/realname">
+    <view class="fun-item">
+    <image 
+      src="../../source/realname-icon-realname-icon.png" 
+      class="item-icon"
+      mode="widthFix"
+    />
+    我的实名
+  </view>
+  </navigator>
+  <view class="fun-item">
+    <image 
+      src="../../source/voucher-icon-voucher-icon.png" 
+      class="item-icon"
+      mode="widthFix"
+    />
+    我的抵用券
+  </view>
+  <view class="fun-item">
+    <image 
+      src="../../source/address-icon-address-icon.png" 
+      class="item-icon"
+      mode="widthFix"
+    />
+    常用地址
+  </view>
+  <view class="fun-item">
+    <image 
+      src="../../source/news-icon-news-icon.png" 
+      class="item-icon"
+      mode="widthFix"
+    />
+    消息中心
+  </view>
+  <view class="fun-item">
+    <image 
+      src="../../source/service-icon-service-icon.png" 
+      class="item-icon"
+      mode="widthFix"
+    />
+    客服服务
+  </view>
+</view>

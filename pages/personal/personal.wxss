@@ -1,0 +1,52 @@
+.header {
+  width: 100%;
+  height: 142rpx;
+  background-color: #35bd00;
+
+  display: flex;
+}
+.personal-img {
+  width: 94rpx;
+  height: 92rpx;
+  margin-left: 96rpx;
+}
+.arrow-img {
+  width: 18rpx;
+  height: 30rpx;
+  margin-right: 57rpx;
+  padding-top: 35rpx;
+}
+.header-info {
+  flex: 1;
+  margin-left: 22rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  height: 92rpx;
+}
+.name {
+  font-size: 28rpx;
+}
+.sign {
+  font-size: 24rpx;
+  margin-top: 8rpx;
+}
+.function {
+  margin-top: 42rpx;
+}
+.fun-item {
+  width: 100%;
+  height: 108rpx;
+  background-color: #fff;
+  font-size: 28rpx;
+  color: #626161;
+  margin-bottom: 1rpx;
+
+  display: flex;
+  align-items: center;
+}
+.item-icon {
+  width: 32rpx;
+  margin: 0 81rpx 0 64rpx;
+}

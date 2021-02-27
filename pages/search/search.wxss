@@ -1,0 +1,40 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 136rpx;
+  background-color: #35bd00;
+}
+.header-input {
+  box-sizing: border-box;
+  width: 622rpx;
+  height: 72rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  margin: 0 auto;
+  padding-left: 45rpx;
+  padding-right: 60rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+.scancode-icon {
+  position: absolute;
+  top: 22rpx;
+  right: 86rpx;
+  width: 30rpx;
+  height: 28rpx;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.notFound-img {
+  width: 332rpx;
+  height: 330rpx;
+  margin-top: 224rpx;
+}
+.notFound-text {
+  margin-top: 40rpx;
+  font-size: 24rpx;
+  color: #999;
+}

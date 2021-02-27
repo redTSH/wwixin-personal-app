@@ -1,0 +1,72 @@
+
+.banner-img {
+  width: 100%;
+}
+.content {
+  margin: 40rpx 20rpx 0;
+}
+.content-title {
+  color: #999;
+  font-size: 28rpx;
+  line-height: 36rpx;
+  padding-left: 20rpx;
+}
+.staff, .myOrder {
+  margin-top: 16rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 710rpx;
+  height: 156rpx;
+  background-color: #fff;
+}
+.staff-img {
+  width: 92rpx;
+  height: 92rpx;
+  margin: 32rpx 20rpx;
+}
+.staff-info {
+  flex: 1;
+}
+.info-main {
+  font-size: 28rpx;
+  color: #626161;
+}
+.info-main text {
+  margin-right: 64rpx;
+}
+.info-extra {
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 12rpx;
+}
+.info-extra text {
+  margin-right: 20rpx;
+}
+.staff-btn {
+  width: 186rpx;
+  height: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #35bd00;
+  border-radius: 30rpx;
+  color: #fff;
+  font-size: 24rpx;
+  margin-right: 20rpx;
+}
+.staff-btn-img {
+  width: 28rpx;
+  height: 28rpx;
+  margin-right: 10rpx;
+  z-index: 9999;
+}
+.myOrder {
+  box-sizing: border-box;
+  margin-top: 40rpx;
+  padding-left: 34rpx;
+}
+.order-img {
+  width: 150rpx;
+  height: 150rpx;
+}

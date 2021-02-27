@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/send/send",
+    "pages/search/search",
+    "pages/personal/personal",
+    "pages/realname/realname"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#35bd00",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./source/tabBarIcon/home-icon-home-icon.png",
+        "selectedIconPath": "./source/tabBarIcon/home-icon.png"
+      },
+      {
+        "pagePath": "pages/send/send",
+        "text": "寄快递",
+        "iconPath": "./source/tabBarIcon/send-icon-send-icon.png",
+        "selectedIconPath": "./source/tabBarIcon/send-icon.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "查快递",
+        "iconPath": "./source/tabBarIcon/polling-icon-polling-icon.png",
+        "selectedIconPath": "./source/tabBarIcon/polling-icon.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "./source/tabBarIcon/my-icon-my-icon.png",
+        "selectedIconPath": "./source/tabBarIcon/my-icon.png"
+      }
+    ],
+    "position": "bottom",
+    "backgroundColor": "#fff"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

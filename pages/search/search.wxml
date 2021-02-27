@@ -1,0 +1,12 @@
+<view class="header">
+  <input 
+    type="text" 
+    class="header-input"
+    placeholder="请输入快递单号"
+  />
+  <image src="../../source/scancode-icon.png" class="scancode-icon"></image>
+</view>
+<view class="content">
+  <image src="../../source/big-img.png" class="notFound-img"></image>
+  <text class="notFound-text">抱歉，还没有查询到您的快递哦~~</text>
+</view>

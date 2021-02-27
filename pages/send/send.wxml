@@ -1,0 +1,36 @@
+<view class="staff">
+    <image src="../../source/portrait-img.png" class="staff-img"></image>
+    <view class="staff-info">
+      <view class="info-main"><text>穆穆**</text><text>133***9999</text></view>
+      <view class="info-extra"><text>极速快递</text><text>深圳机场路</text></view>
+    </view>
+    <image src="../../source/arrow-gray.png" class="more-icon"></image>
+</view>
+
+<view class="personal-info">
+  <view class="point"></view>
+  <view class="personal-info-main">发件人信息</view>
+  <image src="../../source/tool-gerenliebiao.png" class="info-img"></image>
+</view>
+<view class="personal-info">
+  <view class="point"></view>
+  <view class="personal-info-main">收件人信息</view>
+  <image src="../../source/tool-gerenliebiao.png" class="info-img"></image>
+</view>
+
+<view class="next-btn">下一步</view>
+
+<view class="promise-info">
+  <view class="promise-item">
+    <image src="../../source/punctual-icon.png" class="promise-icon"></image>
+    守时守约
+  </view>
+  <view class="promise-item borderLR">
+    <image src="../../source/paid-icon.png" class="promise-icon"></image>
+    丢损必赔
+  </view>
+  <view class="promise-item">
+    <image src="../../source/guarantee-icon.png" class="promise-icon"></image>
+    急速官方保证
+  </view>
+</view>

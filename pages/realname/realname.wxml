@@ -1,0 +1,19 @@
+<form action="get">
+  <view class="item">
+    <view class="item-title">姓名</view>
+    <input type="text" class="item-input" placeholder="请输入姓名" value="{{realname.name}}"/>
+  </view>
+  <view class="item">
+    <view class="item-title">证件号码</view>
+    <input type="idcard" class="item-input" placeholder="请输入证件号码" value="{{realname.idcard}}"/>
+  </view>
+  <view class="item">
+    <view class="item-title">证件照片</view>
+    <button class="upload-btn">请上传身份证照片(非必传)</button>
+  </view>
+  <view class="item">
+    <view class="item-title">手机号码</view>
+    <input type="number" class="item-input" placeholder="请输入手机号码" value="{{realname.number}}"/>
+  </view>
+  <button class="sub-btn" id="sub-btn">提交</button>
+</form>
